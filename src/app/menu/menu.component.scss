@@ -1,0 +1,54 @@
+.menu-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.menu-category {
+  margin: 30px 0;
+}
+
+.menu-items-container {
+  overflow-x: auto; /* Aggiungi lo scorrimento orizzontale */
+  padding: 10px 0;
+  width: 100%;
+}
+
+.menu-items {
+  display: flex;
+  gap: 20px;
+  justify-content: start; /* Allinea i piatti a sinistra */
+}
+
+.menu-item {
+  flex: 0 0 auto; /* Non permettere al piatto di ridursi o espandersi */
+  width: 250px; /* Imposta una larghezza fissa per ogni piatto */
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+  transform: scale(
+    1.05
+  ); /* Aggiungi un effetto di ingrandimento al passaggio del mouse */
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.price {
+  color: #e74c3c;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

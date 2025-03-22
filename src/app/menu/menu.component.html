@@ -1,0 +1,18 @@
+<div class="menu-container">
+  <h1>Il Nostro Menu</h1>
+  <p>Scopri le nostre prelibatezze!</p>
+
+  <div class="menu-category" *ngFor="let category of menuCategories">
+    <h2>{{ category.name }}</h2>
+    
+    <div class="menu-items-container">
+      <div class="menu-items">
+        <div *ngFor="let item of category.items" class="menu-item">
+          <img [src]="item.image" alt="{{ item.name }}" />
+          <p>{{ item.name }}</p>
+          <p class="price">{{ item.price }}€</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

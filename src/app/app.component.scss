@@ -1,0 +1,83 @@
+/* Stile globale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Colore di sfondo chiaro per la pagina */
+    color: #333;
+  }
+  
+  /* Stile per la navbar */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #2c3e50; /* Colore scuro per la navbar */
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #ecf0f1; /* Colore chiaro per il testo dei tab */
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #34495e; /* Colore di hover per il tab */
+    color: #ecf0f1; /* Mantieni il testo chiaro anche quando il tab è attivo */
+  }
+  
+  /* Colore di sfondo per il tab attivo */
+  nav a.active {
+    background-color: #e74c3c; /* Colore rosso per il tab attivo */
+    color: white;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Stile per il contenuto delle pagine */
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  
